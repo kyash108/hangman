@@ -1,0 +1,47 @@
+/* WEB230 Final Project Winter 2020 */
+
+body {
+  text-align: center;
+  background: orange;
+  font-size: 2rem;
+  font-family: 'Comic Sans MS', Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+section.letters {
+  margin: 1em 0;
+}
+
+section.word {
+  letter-spacing: 0.5em;
+}
+
+section.letters span {
+  color: darkred;
+  border: 3px solid black;
+    border-radius: 10px;
+}
+
+/* 
+This class will grey out the letters as they are used. 
+Just add the class "used".
+*/
+section.letters span.used {
+  color: grey;
+  
+}
+
+/* 
+Display the message when the game is over. 
+Hide it at the beginning. 
+*/
+p.win {
+  text-align: center;
+  font-size: 1rem;
+  display: none;
+}
+
+/* WEB230 Final Project Winter 2020 */
